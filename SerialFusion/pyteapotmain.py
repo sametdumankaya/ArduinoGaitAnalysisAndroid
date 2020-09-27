@@ -6,8 +6,6 @@ from pygame.locals import *
 import serial
 from pygame import *
 
-ser = serial.Serial("COM4", 9600)
-
 
 def main():
     video_flags = pygame.OPENGL | pygame.DOUBLEBUF
